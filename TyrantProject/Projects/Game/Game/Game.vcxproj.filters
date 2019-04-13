@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLFunctions.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLReader.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Card</Filter>
+    </ClCompile>
+    <ClCompile Include="CardFactory.cpp">
+      <Filter>Card</Filter>
+    </ClCompile>
+    <ClCompile Include="AbilityBase.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="CardGameState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CardGameManager.cpp">
+      <Filter>CardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CardHand.cpp">
+      <Filter>CardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>CardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="AbilityStack.cpp">
+      <Filter>CardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CardGameTextManager.cpp">
+      <Filter>CardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WeakenAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="StrikeAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="SiegeAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="RallyAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="HealAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="RefreshAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="WallAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="BerserkAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="CrushAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="PierceAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="LeechAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="SiphonAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAirAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="CounterAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="RegenerateAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS_Counter.cpp" />
+    <ClCompile Include="SupplyAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="FearAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="FlurryAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="StunAbility.cpp">
+      <Filter>Abilities\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="DiseaseAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="JamAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="EnfeebleAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="SwipeAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanseAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="CardGameCameraManager.cpp" />
+    <ClCompile Include="GUIPopupWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AugumentAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="ImmobilizeAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="LegionAbility.cpp">
+      <Filter>Abilities\Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="PhaseAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="SunderAbility.cpp">
+      <Filter>Abilities\Combat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="tinyxml2.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLFunctions.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLReader.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Card</Filter>
+    </ClInclude>
+    <ClInclude Include="CardData.h">
+      <Filter>Card</Filter>
+    </ClInclude>
+    <ClInclude Include="CardFactory.h">
+      <Filter>Card</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilityBase.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="CardGameState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>CardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CardGameManager.h">
+      <Filter>CardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AllAbilities.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CardHand.h">
+      <Filter>CardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>CardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilityStack.h">
+      <Filter>CardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CardGameTextManager.h">
+      <Filter>CardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilityTypes.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakenAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="StrikeAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="SiegeAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="RallyAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="HealAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="RefreshAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="WallAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="BerserkAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="CrushAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="PierceAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="LeechAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="SiphonAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAirAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="RegenerateAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS_Counter.h" />
+    <ClInclude Include="SupplyAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="FearAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="FlurryAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="StunAbility.h">
+      <Filter>Abilities\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="DiseaseAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="JamAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="EnfeebleAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="SwipeAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanseAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="CardGameCameraManager.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GUIPopupWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AugumentAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmobilizeAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="LegionAbility.h">
+      <Filter>Abilities\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="PhaseAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="SunderAbility.h">
+      <Filter>Abilities\Combat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="XML">
+      <UniqueIdentifier>{ea1adb9a-f994-4b7b-8f0e-ade0cdd77af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Card">
+      <UniqueIdentifier>{58a92d00-8924-4a2d-80d8-c66d93250b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities">
+      <UniqueIdentifier>{91e66654-3168-4535-87c3-cb867fae0883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{5a626095-10e2-4478-99c4-76ebbd6205c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CardGame">
+      <UniqueIdentifier>{c2c08fb1-04c1-4738-b849-1b33e62dc157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities\Activation">
+      <UniqueIdentifier>{1fc38ea5-c8c3-45c0-8b77-bdc21812b348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities\Defensive">
+      <UniqueIdentifier>{43568b22-2d4b-4de6-8092-67072ef75a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities\Combat">
+      <UniqueIdentifier>{1bc4ea0e-3701-41af-b358-49448fd8f338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{91b6bb61-aa01-46ea-a6e0-3afc7febeaad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

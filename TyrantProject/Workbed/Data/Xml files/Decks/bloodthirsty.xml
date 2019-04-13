@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+  <deck>
+		<commander name="Gnorlock"/>
+		
+		<card name="Mawcor"/>
+		<card name="Grimclaw"/>
+		<card name="Grimclaw"/> 
+		<card name="Scythe Overseer"/> 
+		<card name="Scythe Overseer"/> 
+		<card name="Hades"/>
+		<card name="Hungry Blood Pool"/> 
+		<card name="Necro Nest"/>
+		<card name="Necro Nest"/> 
+  </deck>
+
+</root>

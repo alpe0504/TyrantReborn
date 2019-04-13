@@ -1,0 +1,22 @@
+﻿Build started 2018-09-29 12:33:06.
+     1>Project "C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Launcher\Launcher\Launcher.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Workbed\Game_Release.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Launcher\..\LibraryFiles kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\Workbed\Game_Release.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Workbed\Game_Release.lib" /MACHINE:X86 /ignore:4239,4006 Release\Main.obj
+         C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\LibraryFiles\Engine\Engine_Release.lib
+         C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\LibraryFiles\Input\Input_Release.lib
+         C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\LibraryFiles\Time\Time_Release.lib
+         C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\LibraryFiles\Game\Game_Release.lib
+         Generating code
+         Finished generating code
+     1>Effects11_release.lib(EffectAPI.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Effects11_release.lib(EffectAPI.obj)' or at 'C:\Users\Alex\Documents\TyrantProject\TyrantProject\Workbed\vc120.pdb'; linking object as if no debug info
+     1>Effects11_release.lib(EffectNonRuntime.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Effects11_release.lib(EffectNonRuntime.obj)' or at 'C:\Users\Alex\Documents\TyrantProject\TyrantProject\Workbed\vc120.pdb'; linking object as if no debug info
+     1>Effects11_release.lib(EffectLoad.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Effects11_release.lib(EffectLoad.obj)' or at 'C:\Users\Alex\Documents\TyrantProject\TyrantProject\Workbed\vc120.pdb'; linking object as if no debug info
+     1>Effects11_release.lib(d3dxGlobal.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Effects11_release.lib(d3dxGlobal.obj)' or at 'C:\Users\Alex\Documents\TyrantProject\TyrantProject\Workbed\vc120.pdb'; linking object as if no debug info
+     1>Effects11_release.lib(EffectReflection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Effects11_release.lib(EffectReflection.obj)' or at 'C:\Users\Alex\Documents\TyrantProject\TyrantProject\Workbed\vc120.pdb'; linking object as if no debug info
+     1>Effects11_release.lib(EffectRuntime.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Effects11_release.lib(EffectRuntime.obj)' or at 'C:\Users\Alex\Documents\TyrantProject\TyrantProject\Workbed\vc120.pdb'; linking object as if no debug info
+         Launcher.vcxproj -> C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Launcher\Launcher\..\..\..\Workbed\Game_Release.exe
+     1>Done Building Project "C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Launcher\Launcher\Launcher.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.92

@@ -1,0 +1,8 @@
+﻿  InputManager.cpp
+c:\users\alex\documents\tyrantproject\tyrantproject\projects\commonutilities\vector2.h(60): warning C5037: 'Vector2<TYPE>::Vector2': an out-of-line definition of a member of a class template cannot have default arguments
+c:\users\alex\documents\tyrantproject\tyrantproject\projects\input\inputmanager.cpp(110): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\documents\tyrantproject\tyrantproject\projects\input\inputmanager.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\documents\tyrantproject\tyrantproject\projects\input\inputmanager.cpp(164): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\documents\tyrantproject\tyrantproject\projects\input\inputmanager.cpp(183): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\documents\tyrantproject\tyrantproject\projects\input\inputmanager.cpp(287): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+LINK : fatal error LNK1561: entry point must be defined

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+  <card>
+    <name>Warpway Fortress</name>
+    <illustration>Xeno/Structure/Warpway Fortress.jpg</illustration>
+    <faction>xeno</faction>
+    <cardType>structure</cardType>
+    <rarity>rare</rarity>
+    <unique>true</unique>
+    <cooldown>3</cooldown>
+    <health>7</health>
+    <skill name="strike" number="2"/>
+    <skill name="siege" number="3"/>
+    <skill name="summon" suffix="Vaporwing_"/>
+  </card>
+
+  <card>
+    <name>Zarak</name>
+    <illustration>Xeno/Structure/Zarak.jpg</illustration>
+    <faction>xeno</faction>
+    <cardType>structure</cardType>
+    <rarity>rare</rarity>
+    <unique>false</unique>
+    <cooldown>4</cooldown>
+    <health>5</health>
+    <skill name="enfeeble" number ="1" suffix="all"/>
+    <skill name="strike" number="1" suffix="all"/>
+  </card>
+
+  <card>
+    <name>Invix Source</name>
+    <illustration>Xeno/Structure/Invix Source.jpg</illustration>
+    <faction>xeno</faction>
+    <cardType>structure</cardType>
+    <rarity>rare</rarity>
+    <unique>false</unique>
+    <cooldown>4</cooldown>
+    <health>10</health>
+    <skill name="regenerate" number="5"/>
+    <skill name="heal" number="3" suffix ="all" faction="xeno"/>
+    <skill name="rally" number="2" suffix ="all" faction="xeno"/>
+  </card>
+  
+   <card>
+    <name>Enclave Warp Gate</name>
+    <illustration>Xeno/Structure/Enclave Warp Gate.jpg</illustration>
+    <faction>xeno</faction>
+    <cardType>structure</cardType>
+    <rarity>uncommon</rarity>
+    <unique>false</unique>
+    <cooldown>2</cooldown>
+    <health>3</health>
+    <skill name="strike" number="1"/>
+    <skill name="summon" suffix="Fang_"/>
+  </card>
+
+</root>

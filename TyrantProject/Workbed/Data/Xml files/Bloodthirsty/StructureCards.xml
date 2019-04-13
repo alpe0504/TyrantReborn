@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+	<card>
+		<name>Blood Pool</name>
+		<illustration>BloodThirsty/Structure/Blood Pool.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>structure</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<cooldown>3</cooldown>
+		<health>6</health>
+		<skill name="heal" number="1" suffix="all" faction="bloodthirsty"/>
+	</card>
+	
+	<card>
+		<name>Hungry Blood Pool</name>
+		<illustration>BloodThirsty/Structure/Hungry Blood Pool.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>structure</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<cooldown>1</cooldown>
+		<health>6</health>
+		<skill name="heal" number="1" suffix="all" faction="bloodthirsty"/>
+	</card>
+	
+	<card>
+		<name>Necro Nest</name>
+		<illustration>BloodThirsty/Structure/Necro Nest.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>structure</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<cooldown>2</cooldown>
+		<health>6</health>
+		<skill name="refresh"/>
+		<skill name="rally" number="2" suffix="all" faction="bloodthirsty"/>
+	</card>
+
+</root>

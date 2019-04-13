@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	
+	<card>
+		<name>Mayumi</name>
+		<illustration>Raider/Commander/mayumi.jpg</illustration>
+		<faction>raider</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>16</health>
+    <skill name="weaken" number="2"/>
+    <skill name="cleanse"/>
+	</card>
+	
+	<card>
+		<name>Moya</name>
+		<illustration>Raider/Commander/moya.jpg</illustration>
+		<faction>raider</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>11</health>
+    <skill name="weaken" number="1"/>
+    <skill name="refresh"/>
+	</card>
+
+</root>

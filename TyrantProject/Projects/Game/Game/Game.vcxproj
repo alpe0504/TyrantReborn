@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2891A3F7-701E-441B-8641-6ED19D2F929C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\LibraryFiles\Game\</OutDir>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+    <LibraryPath>C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib;$(DXSDK_DIR)\Lib\x64</LibraryPath>
+    <IncludePath>$(WWISESDK)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\LibraryFiles\Game\</OutDir>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+    <LibraryPath>C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib;$(DXSDK_DIR)\Lib\x86</LibraryPath>
+    <IncludePath>$(WWISESDK)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <DisableSpecificWarnings>4505;</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/ignore:4239,4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <DisableSpecificWarnings>4505;</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/ignore:4239,4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbilityBase.h" />
+    <ClInclude Include="AbilityStack.h" />
+    <ClInclude Include="AbilityTypes.h" />
+    <ClInclude Include="AugumentAbility.h" />
+    <ClInclude Include="AllAbilities.h" />
+    <ClInclude Include="AnimationManager.h" />
+    <ClInclude Include="AntiAirAbility.h" />
+    <ClInclude Include="ArmorAbility.h" />
+    <ClInclude Include="BerserkAbility.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardData.h" />
+    <ClInclude Include="CardFactory.h" />
+    <ClInclude Include="CardGameCameraManager.h" />
+    <ClInclude Include="CardGameState.h" />
+    <ClInclude Include="CardGameManager.h" />
+    <ClInclude Include="CardGameTextManager.h" />
+    <ClInclude Include="CardHand.h" />
+    <ClInclude Include="CleanseAbility.h" />
+    <ClInclude Include="CounterAbility.h" />
+    <ClInclude Include="CrushAbility.h" />
+    <ClInclude Include="DiseaseAbility.h" />
+    <ClInclude Include="EnfeebleAbility.h" />
+    <ClInclude Include="FearAbility.h" />
+    <ClInclude Include="FlurryAbility.h" />
+    <ClInclude Include="FlyingAbility.h" />
+    <ClInclude Include="FPS_Counter.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="BaseState.h" />
+    <ClInclude Include="GUIManager.h" />
+    <ClInclude Include="GUIWindow.h" />
+    <ClInclude Include="HealAbility.h" />
+    <ClInclude Include="ImmobilizeAbility.h" />
+    <ClInclude Include="JamAbility.h" />
+    <ClInclude Include="LeechAbility.h" />
+    <ClInclude Include="LegionAbility.h" />
+    <ClInclude Include="PhaseAbility.h" />
+    <ClInclude Include="PierceAbility.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PoisonAbility.h" />
+    <ClInclude Include="GUIPopupWindow.h" />
+    <ClInclude Include="ProtectAbility.h" />
+    <ClInclude Include="RallyAbility.h" />
+    <ClInclude Include="RefreshAbility.h" />
+    <ClInclude Include="RegenerateAbility.h" />
+    <ClInclude Include="SiegeAbility.h" />
+    <ClInclude Include="SiphonAbility.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StrikeAbility.h" />
+    <ClInclude Include="StunAbility.h" />
+    <ClInclude Include="SummonAbility.h" />
+    <ClInclude Include="SunderAbility.h" />
+    <ClInclude Include="SupplyAbility.h" />
+    <ClInclude Include="SwipeAbility.h" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="WallAbility.h" />
+    <ClInclude Include="WeakenAbility.h" />
+    <ClInclude Include="XMLFunctions.h" />
+    <ClInclude Include="XMLReader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbilityBase.cpp" />
+    <ClCompile Include="AbilityStack.cpp" />
+    <ClCompile Include="AugumentAbility.cpp" />
+    <ClCompile Include="AnimationManager.cpp" />
+    <ClCompile Include="AntiAirAbility.cpp" />
+    <ClCompile Include="ArmorAbility.cpp" />
+    <ClCompile Include="BerserkAbility.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CardFactory.cpp" />
+    <ClCompile Include="CardGameCameraManager.cpp" />
+    <ClCompile Include="CardGameState.cpp" />
+    <ClCompile Include="CardGameManager.cpp" />
+    <ClCompile Include="CardGameTextManager.cpp" />
+    <ClCompile Include="CardHand.cpp" />
+    <ClCompile Include="CleanseAbility.cpp" />
+    <ClCompile Include="CounterAbility.cpp" />
+    <ClCompile Include="CrushAbility.cpp" />
+    <ClCompile Include="DiseaseAbility.cpp" />
+    <ClCompile Include="EnfeebleAbility.cpp" />
+    <ClCompile Include="FearAbility.cpp" />
+    <ClCompile Include="FlurryAbility.cpp" />
+    <ClCompile Include="FlyingAbility.cpp" />
+    <ClCompile Include="FPS_Counter.cpp" />
+    <ClCompile Include="Game.cpp">
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</MultiProcessorCompilation>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp" />
+    <ClCompile Include="GUIManager.cpp" />
+    <ClCompile Include="GUIWindow.cpp" />
+    <ClCompile Include="HealAbility.cpp" />
+    <ClCompile Include="ImmobilizeAbility.cpp" />
+    <ClCompile Include="JamAbility.cpp" />
+    <ClCompile Include="LeechAbility.cpp" />
+    <ClCompile Include="LegionAbility.cpp" />
+    <ClCompile Include="PhaseAbility.cpp" />
+    <ClCompile Include="PierceAbility.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PoisonAbility.cpp" />
+    <ClCompile Include="GUIPopupWindow.cpp" />
+    <ClCompile Include="ProtectAbility.cpp" />
+    <ClCompile Include="RallyAbility.cpp" />
+    <ClCompile Include="RefreshAbility.cpp" />
+    <ClCompile Include="RegenerateAbility.cpp" />
+    <ClCompile Include="SiegeAbility.cpp" />
+    <ClCompile Include="SiphonAbility.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StrikeAbility.cpp" />
+    <ClCompile Include="StunAbility.cpp" />
+    <ClCompile Include="SummonAbility.cpp" />
+    <ClCompile Include="SunderAbility.cpp" />
+    <ClCompile Include="SupplyAbility.cpp" />
+    <ClCompile Include="SwipeAbility.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="WallAbility.cpp" />
+    <ClCompile Include="WeakenAbility.cpp" />
+    <ClCompile Include="XMLFunctions.cpp" />
+    <ClCompile Include="XMLReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Engine\Engine.vcxproj">
+      <Project>{83a4114b-f5a3-49b5-a202-eed158ff047c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Input\Input.vcxproj">
+      <Project>{8c6ff29e-7487-4c72-92a6-f52db46052b5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Time\Time.vcxproj">
+      <Project>{1a516f61-79c8-40d9-8511-9fe2d2512a7b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

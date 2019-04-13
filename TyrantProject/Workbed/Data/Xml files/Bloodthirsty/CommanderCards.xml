@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	
+	<card>
+		<name>Dementia</name>
+		<illustration>BloodThirsty/Commander/Dementia.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>13</health>
+	</card>
+	
+	<card>
+		<name>Dracorex</name>
+		<illustration>BloodThirsty/Commander/Dracorex.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>9</health>
+	</card>
+	
+	<card>
+		<name>Gnorlock</name>
+		<illustration>BloodThirsty/Commander/Gnorlock.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>6</health>
+		<skill name="rally" number="1" suffix="all" faction="bloodthirsty"/>
+	</card>
+	
+	<card>
+		<name>Marrowtok</name>
+		<illustration>BloodThirsty/Commander/Marrowtok.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>18</health>
+	</card>
+	
+	<card>
+		<name>Scythos</name>
+		<illustration>BloodThirsty/Commander/Scythos.jpg</illustration>
+		<faction>bloodthirsty</faction>
+		<cardType>commander</cardType>
+		<rarity>rare</rarity>
+		<unique>false</unique>
+		<health>250</health>
+		<skill name="rally" number="1" suffix="all"/>
+		<skill name="enfeeble" number="1" suffix="all"/>
+		<skill name="summon" suffix="Scythling_"/>
+	</card>
+
+</root>

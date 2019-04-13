@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{67d84a0c-0fc8-43b9-a23a-47d794331b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{b89425c2-e067-42cc-9f2b-b7af735a4af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading">
+      <UniqueIdentifier>{c8f270a2-9bdc-4efc-94a5-9c446d622eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5b9d6312-d48f-4cc3-9619-941e3990c9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Vertex">
+      <UniqueIdentifier>{0d5e872b-cf26-4e44-825b-3748fb5a1c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Texture">
+      <UniqueIdentifier>{9b26e2df-cf23-4213-9aef-3db5ebbffebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{5b509848-2970-4337-8eab-d4174b229b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Shaders">
+      <UniqueIdentifier>{b98deda0-357d-462b-a5cd-0386d4329bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Shaders\Utilites">
+      <UniqueIdentifier>{c203ac94-b9bc-4ef3-b73e-b4ef515c56e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Effects">
+      <UniqueIdentifier>{82313a80-88d6-4ff7-8ff1-965aea4bc8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{7ac8a510-a6c4-47ef-bc49-6471932895f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Effects\2D">
+      <UniqueIdentifier>{2c516da4-c16b-4630-a870-fe85c3685391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Effects\3D">
+      <UniqueIdentifier>{5537e799-455f-4680-bd01-4436318ef4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Shaders\2D">
+      <UniqueIdentifier>{f63d80eb-7945-4524-84ee-9c95e6c3833c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Shaders\3D">
+      <UniqueIdentifier>{06b92b04-d5dc-45a6-bf26-ae9102b6e6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{91eecba3-e477-4ca0-b111-ddfcfe48ec78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSetupInfo.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectData.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexLayouts.h">
+      <Filter>Model\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexStructs.h">
+      <Filter>Model\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Model\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Model\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTypes.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Shading\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ShaderBufferStructs.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="FontContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFont.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect2D.h">
+      <Filter>Shading\Effects\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h" />
+    <ClInclude Include="Text2D.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text3D.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectText2D.h">
+      <Filter>Shading\Effects\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectText3D.h">
+      <Filter>Shading\Effects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAnimation.h">
+      <Filter>Shading\Effects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectData.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Model\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Model\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureContainer.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectContainer.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Shading\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="FontContainer.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFont.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect2D.cpp">
+      <Filter>Shading\Effects\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Instance.cpp" />
+    <ClCompile Include="Text2D.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text3D.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectText2D.cpp">
+      <Filter>Shading\Effects\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectText3D.cpp">
+      <Filter>Shading\Effects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAnimation.cpp">
+      <Filter>Shading\Effects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\Utilities\ShaderSamplerStates.fx">
+      <Filter>Shading\Shaders\Utilites</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\Utilities\ShaderVariables.fx">
+      <Filter>Shading\Shaders\Utilites</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\CardShader.fx">
+      <Filter>Shading\Shaders\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\DefaultShader.fx">
+      <Filter>Shading\Shaders\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\NoTextureShader.fx">
+      <Filter>Shading\Shaders\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\TextShader2D.fx">
+      <Filter>Shading\Shaders\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\TextShader3D.fx">
+      <Filter>Shading\Shaders\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\SpriteShader.fx">
+      <Filter>Shading\Shaders\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\AnimationShader.fx">
+      <Filter>Shading\Shaders\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\VertexColorShader3D.fx">
+      <Filter>Shading\Shaders\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\VertexColorShader2D.fx">
+      <Filter>Shading\Shaders\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Workbed\Data\Shaders\SpriteWrapShader.fx">
+      <Filter>Shading\Shaders\2D</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

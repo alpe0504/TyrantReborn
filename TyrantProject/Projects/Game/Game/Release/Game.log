@@ -1,0 +1,107 @@
+﻿Build started 2018-09-29 12:33:03.
+     1>Project "C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Game\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /MP /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Game_Release.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4505 /analyze- /errorReport:prompt AbilityBase.cpp AbilityStack.cpp AugumentAbility.cpp AntiAirAbility.cpp ArmorAbility.cpp BerserkAbility.cpp Card.cpp CardFactory.cpp CardGameState.cpp CardGameManager.cpp CardHand.cpp CleanseAbility.cpp CounterAbility.cpp CrushAbility.cpp DiseaseAbility.cpp EnfeebleAbility.cpp FearAbility.cpp FlurryAbility.cpp FlyingAbility.cpp Game.cpp HealAbility.cpp ImmobilizeAbility.cpp JamAbility.cpp LeechAbility.cpp LegionAbility.cpp PierceAbility.cpp Player.cpp PoisonAbility.cpp ProtectAbility.cpp RallyAbility.cpp RefreshAbility.cpp RegenerateAbility.cpp SiegeAbility.cpp SiphonAbility.cpp StrikeAbility.cpp StunAbility.cpp SummonAbility.cpp SupplyAbility.cpp SwipeAbility.cpp TributeAbility.cpp WallAbility.cpp WeakenAbility.cpp
+         AbilityBase.cpp
+         AbilityStack.cpp
+         AugumentAbility.cpp
+         AntiAirAbility.cpp
+         ArmorAbility.cpp
+         BerserkAbility.cpp
+         Card.cpp
+         CardFactory.cpp
+         CardGameState.cpp
+         CardGameManager.cpp
+         CardHand.cpp
+         CleanseAbility.cpp
+         CounterAbility.cpp
+         CrushAbility.cpp
+         DiseaseAbility.cpp
+         EnfeebleAbility.cpp
+         FearAbility.cpp
+         FlurryAbility.cpp
+         FlyingAbility.cpp
+         Game.cpp
+         HealAbility.cpp
+         ImmobilizeAbility.cpp
+         JamAbility.cpp
+         LeechAbility.cpp
+         LegionAbility.cpp
+         PierceAbility.cpp
+         Player.cpp
+         PoisonAbility.cpp
+         ProtectAbility.cpp
+         RallyAbility.cpp
+         RefreshAbility.cpp
+         RegenerateAbility.cpp
+         SiegeAbility.cpp
+         SiphonAbility.cpp
+         StrikeAbility.cpp
+         StunAbility.cpp
+         SummonAbility.cpp
+         SupplyAbility.cpp
+         SwipeAbility.cpp
+         TributeAbility.cpp
+         WallAbility.cpp
+         WeakenAbility.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Launcher\..\LibraryFiles\Game\Game_Release.lib" /NOLOGO /LTCG /ignore:4239,4006 Release\AbilityBase.obj
+         Release\AbilityStack.obj
+         Release\AugumentAbility.obj
+         Release\AnimationManager.obj
+         Release\AntiAirAbility.obj
+         Release\ArmorAbility.obj
+         Release\BerserkAbility.obj
+         Release\Card.obj
+         Release\CardFactory.obj
+         Release\CardGameCameraManager.obj
+         Release\CardGameState.obj
+         Release\CardGameManager.obj
+         Release\CardGameTextManager.obj
+         Release\CardHand.obj
+         Release\CleanseAbility.obj
+         Release\CounterAbility.obj
+         Release\CrushAbility.obj
+         Release\DiseaseAbility.obj
+         Release\EnfeebleAbility.obj
+         Release\FearAbility.obj
+         Release\FlurryAbility.obj
+         Release\FlyingAbility.obj
+         Release\FPS_Counter.obj
+         Release\Game.obj
+         Release\BaseState.obj
+         Release\GUIManager.obj
+         Release\GUIWindow.obj
+         Release\HealAbility.obj
+         Release\ImmobilizeAbility.obj
+         Release\JamAbility.obj
+         Release\LeechAbility.obj
+         Release\LegionAbility.obj
+         Release\PierceAbility.obj
+         Release\Player.obj
+         Release\PoisonAbility.obj
+         Release\GUIPopupWindow.obj
+         Release\ProtectAbility.obj
+         Release\RallyAbility.obj
+         Release\RefreshAbility.obj
+         Release\RegenerateAbility.obj
+         Release\SiegeAbility.obj
+         Release\SiphonAbility.obj
+         Release\stdafx.obj
+         Release\StrikeAbility.obj
+         Release\StunAbility.obj
+         Release\SummonAbility.obj
+         Release\SupplyAbility.obj
+         Release\SwipeAbility.obj
+         Release\tinyxml2.obj
+         Release\TributeAbility.obj
+         Release\WallAbility.obj
+         Release\WeakenAbility.obj
+         Release\XMLFunctions.obj
+         Release\XMLReader.obj
+         Game.vcxproj -> C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Launcher\..\LibraryFiles\Game\Game_Release.lib
+     1>Done Building Project "C:\Users\Alex\Documents\TyrantProject\TyrantProject\Projects\Game\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.89
